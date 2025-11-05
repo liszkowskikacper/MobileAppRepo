@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_height="match_parent"
+        android:layout_width="wrap_content"
+        tools:ignore="MissingConstraints">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Formularz"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Imię"
+        android:textSize="14sp"
+        android:layout_marginTop="24dp"/>
+
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Wpisz swoje imię"
+        android:inputType="text"
+        android:imeOptions="actionNext"/>
+
+    <TextView
+        android:id="@+id/textVew3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="E-mail"
+        android:textSize="14sp"
+        android:layout_marginTop="12dp"/>
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Wpisz maila"
+        android:inputType="text"/>
+
+    <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Czy jesteś pełnoletni?" />
+
+
+    <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <RadioButton
+                android:id="@+id/radioButton1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mieszkam w mieście" />
+            <RadioButton
+                android:id="@+id/radioButton2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mieszkam poza miastem" />
+            <RadioButton
+                android:id="@+id/radioButton3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mieszkam poza Polską" />
+
+
+        </RadioGroup>
+
+    <EditText
+            android:id="@+id/editTextNumberPassword1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:text="Proszę podać PESEL"/>
+
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Wyślij"
+        android:layout_marginTop="20dp"/>
+
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
