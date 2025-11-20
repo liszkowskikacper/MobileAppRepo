@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        style="@style/ImportantText"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"/>
+    <Button
+        style="@style/button"
+        android:text="Kliknij mnie!" />
+    <Switch
+        android:id="@+id/switch1"
+        style="@style/switch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Przełącz mnie!" />
+    <EditText
+        android:id="@+id/editTextTextPostalAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPostalAddress"
+        style = "@style/edit" />
+
+</LinearLayout>
