@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme._20_11_2025" parent="Theme.Design.BottomSheetDialog">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme._20_11_2025" parent="Base.Theme._20_11_2025" />
+</resources>
+
+<!--
+Użyte motywy
+Theme.Material3.DayNight.NoActionBar
+Theme.AppCompat.DayNight
+Theme.Material3.Dark
+Theme.Material3.DynamicColors.Light
+Theme.AppCompat.DayNight.NoActionBar
+Theme.MaterialComponents.DialogWhenLarge
+Theme.Design.BottomSheetDialog
+
+
